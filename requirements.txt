@@ -1,0 +1,6 @@
+torch
+matplotlib
+pynvml           # optional: GPU utilization %% in Phase 10 (pip install nvidia-ml-py if this name fails)
+# Triton — pick ONE of the following depending on OS:
+# triton-windows  # Windows + NVIDIA GPU (Blackwell needs Triton >=3.3, CUDA >=12.8)
+# triton          # Linux / WSL2
